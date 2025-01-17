@@ -1,0 +1,32 @@
+# Paths
+data_path: "data/Tweets.txt"
+model_dir: "model/"
+log_dir: "Log_data"
+checkpoint_dir: "Checkpoints/"
+
+# Training parameters
+training:
+  num_train_epochs: 10
+  per_device_train_batch_size: 256
+  per_device_eval_batch_size: 256
+  save_steps: 5000
+  logging_steps: 100
+
+# Experiment parameters
+experiment:
+  n_trials: 10
+  lr_values: [1e-2, 2e-2, 1e-3, 3e-3]
+  weight_decay_range: [1e-5, 1e-1]
+
+# Monitoring parameters
+monitoring:
+  training_data_path: "data/Tweets.txt"
+  prediction_log_path: "Log_data/prediction_history.txt"
+  graph_dir: "Log_data/graphs"
+  report_dir: "Log_data/reports"
+
+# Server parameters
+server:
+  host: "0.0.0.0"
+  port: 8000
+  static_files_dir: "static/"
