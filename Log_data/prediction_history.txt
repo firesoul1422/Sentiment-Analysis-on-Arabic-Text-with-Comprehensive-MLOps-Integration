@@ -1,0 +1,1 @@
+inputs	prediction	confident	label	timestampÇáÓáÇã Úáíßã	tensor([-0.4944, -0.1245], grad_fn=<SelectBackward0>)	0.5914270877838135	POS	2025-01-18 01:56:04.009667

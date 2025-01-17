@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/Aa112/Desktop/Projects/Full_MLOPS/mlruns/0/0b5acd79eb0f4af19ad59bc3ff0149b1/artifacts
+deleted_time: 1737147298372
+end_time: 1737136891194
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 0b5acd79eb0f4af19ad59bc3ff0149b1
+run_name: Sentimintal_analysis_project_experiment 0
+run_uuid: 0b5acd79eb0f4af19ad59bc3ff0149b1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737136890904
+status: 4
+tags: []
+user_id: Aa112
